@@ -1,0 +1,582 @@
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan11
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com1
+tel: 5555555
+gender: male
+
+<> 2018-03-31T065629.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com1
+tel: 5555555
+gender: male
+
+<> 2018-03-31T065620.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com1
+tel: 5555555
+gender: male
+
+<> 2018-03-31T065019.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T065009.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T065002.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T064557.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T064543.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T064536.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T064417.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T064411.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T064129.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T064124.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan1
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T063642.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T063632.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T063438.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T063210.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T063039.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+gender: male
+
+<> 2018-03-31T060504.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+
+<> 2018-03-31T053316.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+
+<> 2018-03-31T053126.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+
+<> 2018-03-31T052525.500.html
+
+###
+
+POST http://localhost:8080/rest/user/registe?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+
+<> 2018-03-31T052522.404.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+
+<> 2018-03-31T052143.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+email: erkan@pubtekno.com
+tel: 5555555
+
+<> 2018-03-31T043728.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+
+<> 2018-03-31T012456.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+
+<> 2018-03-31T012317.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+
+<> 2018-03-31T012125.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+
+<> 2018-03-31T012056.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+username: erkan
+password: erkan
+userid: 22
+usertype: 2
+
+<> 2018-03-31T012030.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T010613.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T010438.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T010356.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T010347.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T010346.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2&Content-Type=application/json
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T010333.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2&Content-Type=application/json
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T125429.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2&Content-Type=application/json
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T124602.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2&Content-Type=application/json
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T124528.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2&Content-Type=application/json
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T124353.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T123803.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T123712.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T123538.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T123029.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T122935.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T122848.500.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T122744.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T122704.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T122646.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T122615.415.html
+
+###
+
+POST http://localhost:8080/rest/user/register?username=erkan&password=erkan&userid=22&usertype=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-03-31T122441.415.html
+
+###
+

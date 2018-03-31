@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jersey-bundle-1.8-ea03">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../jersey-bundle-1.8-ea03.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

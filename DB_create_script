@@ -1,0 +1,51 @@
+CREATE TABLE `Appointments` (
+  `AppointmentID` int(11) NOT NULL AUTO_INCREMENT,
+  `StudentID` int(11) NOT NULL,
+  `LecturerID` int(11) NOT NULL,
+  `StartDateTime` datetime NOT NULL,
+  `Length` int(11) NOT NULL,
+  `AppointmentStatus` int(11) NOT NULL,
+  `AppointmentHeader` varchar(100) DEFAULT NULL,
+  `AppointmentDescription` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`AppointmentID`),
+  KEY `StudentID` (`StudentID`),
+  KEY `LecturerID` (`LecturerID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE `PersonalInformation` (
+  `UserID` int(11) NOT NULL,
+  `InfoType` varchar(30) NOT NULL,
+  `InfoValue` varchar(30) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE `Properties` (
+  `PVALUE` varchar(200) NOT NULL,
+  `PKEY` varchar(50) NOT NULL,
+  PRIMARY KEY (`PVALUE`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE `Users` (
+  `UserID` int(11) NOT NULL AUTO_INCREMENT,
+  `Username` varchar(30) DEFAULT NULL,
+  `UserPassword` varchar(100) DEFAULT NULL,
+  `UserType` int(11) NOT NULL,
+  `RegistrationTime` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`UserID`),
+  UNIQUE KEY `constr_username_email` (`Username`)
+) ENGINE=MyISAM AUTO_INCREMENT=38 DEFAULT CHARSET=latin1;
+
+CREATE TABLE `UserTypes` (
+  `UserTypeID` int(11) NOT NULL,
+  `CanGiveAppointment` tinyint(1) NOT NULL,
+  `UserTypeName` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`UserTypeID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+CREATE TABLE `InformationTypes` (
+  `InfoTypeID` int(11) NOT NULL AUTO_INCREMENT,
+  `InfoName` varchar(30) DEFAULT NULL,
+  `CanBeNull` tinyint(1) NOT NULL,
+  `InfoValue` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`InfoTypeID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+

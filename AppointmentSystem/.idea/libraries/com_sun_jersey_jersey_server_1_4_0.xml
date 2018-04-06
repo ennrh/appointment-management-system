@@ -1,9 +1,6 @@
 <component name="libraryTable">
   <library name="com.sun.jersey.jersey-server-1.4.0">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../com.sun.jersey.jersey-server-1.4.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../com.fasterxml.jackson.core.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

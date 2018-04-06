@@ -2,10 +2,15 @@ package repository;
 
 import org.apache.commons.codec.digest.DigestUtils;
 
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.HashMap;
 
 public class UserRegistrationRepository extends repository.BaseRepository {
+
+    public UserRegistrationRepository(){
+        connect();
+    }
 
     public boolean saveUserInfo(HashMap<String, String> userInformations) throws SQLException {
         this.connect();
@@ -15,6 +20,7 @@ public class UserRegistrationRepository extends repository.BaseRepository {
                 userInformations.get("email")) == false){
             return false;
         }
+
         String password = encriptPassword(userInformations.get("password"));
 
         this.statement.executeUpdate("insert into Users (Username, UserPassword, UserType)" +
@@ -50,15 +56,23 @@ public class UserRegistrationRepository extends repository.BaseRepository {
 
     public boolean checkUsernameEmail(String username, String email){
         try {
+
             String sql =
-                    "select UserID as userid from Users where username = '"
-                            + username + "' or (select InfoValue from PersonalInformation where " +
-                            "InfoType = 'email') = '" + email +"'";
+                    "select UserID as userid from Users where username = '" + username + "'";
             resultSet = this.statement.executeQuery(sql);
-            System.out.println("SQL: " + sql);
+
             if(resultSet.next()){
                 return false;
             }
+
+            ResultSet resultSet1 = statement.executeQuery("select InfoValue from " +
+                    "PersonalInformation where InfoType = 'email'");
+            while (resultSet1.next()){
+                if(resultSet1.getString(1).contains(email)){
+                    return false;
+                }
+            }
+
         } catch (SQLException e) {
             e.printStackTrace();
         }

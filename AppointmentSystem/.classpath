@@ -10,4 +10,6 @@
   <classpathentry kind="src" path="src/main/resources/java-json.jar" including="**/*.java"/>
   <classpathentry kind="src" path="src/main/resources/mysql-connector-java-5.1.46.jar" including="**/*.java"/>
   <classpathentry kind="src" path="src/main/resources/commons-codec-1.7.jar" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources/com.fasterxml.jackson.core.jar" including="**/*.java"/>
+  <classpathentry kind="src" path="src/main/resources/com.sun.jersey.jersey-server-1.4.0.jar" including="**/*.java"/>
 </classpath>

@@ -43,9 +43,13 @@ public class AppointmentProvider {
 
         ArrayList<String> dates = tmp.get("dates");
         ArrayList<String> lengths = tmp.get("lengths");
+        ArrayList<String> status = tmp.get("status");
 
         for(int i = 0; i<dates.size(); i++){
-            result.put(dates.get(i), lengths.get(i));
+            JSONObject tempJSON = new JSONObject();
+            tempJSON.put(dates.get(i), lengths.get(i));
+            result.put("appointment", tempJSON);
+            result.put("status", status.get(i));
         }
 
         return result;

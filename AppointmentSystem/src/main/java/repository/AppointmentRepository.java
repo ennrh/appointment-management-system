@@ -53,17 +53,19 @@ public class AppointmentRepository extends BaseRepository{
         this.connect();
         this.createStatement();
 
-        ArrayList<String> dates = new ArrayList<String>();
+        ArrayList<String> dates   = new ArrayList<String>();
         ArrayList<String> lengths = new ArrayList<String>();
+        ArrayList<String> status  = new ArrayList<String>();
 
         resultSet = this.statement.executeQuery("select StartDateTime as startdatetime," +
-                " Length as length from Appointments where " +
+                " Length as length, AppointmentStatus as status from Appointments where " +
                 "StartDateTime between '" + startDate + "' and '" + endDate + "' and " +
                 "LecturerID = '" + randevuVerenID + "'");
 
         while (resultSet.next()){
             dates.add(resultSet.getString("startdatetime"));
             lengths.add(resultSet.getString("length"));
+            status.add(resultSet.getString("status"));
         }
 
         HashMap<String, ArrayList<String>> tmp =
@@ -71,6 +73,7 @@ public class AppointmentRepository extends BaseRepository{
 
         tmp.put("lengths",lengths);
         tmp.put("dates", dates);
+        tmp.put("status", status);
 
         this.closeConnection();
         return tmp;

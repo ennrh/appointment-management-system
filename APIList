@@ -9,7 +9,7 @@ email, tel, gender
 Dönüş --> status,
 
 http://13.59.53.130:8080/AppointmentSystem/rest/appointment/take (Randevu Alma)
-randevuAlanID, randevuVerenID, randevuTarihi (Tarih her API için klasik DateTime formatında olmalı:
+randevuAlanID, randevuVerenID, randevuTarihi(Başlangıç) (Tarih her API için klasik DateTime formatında olmalı:
 Örnek: 2011-01-22 00:00:00)
 Dönüş --> status
 

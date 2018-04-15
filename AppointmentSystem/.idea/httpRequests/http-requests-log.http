@@ -1,527 +1,520 @@
 POST http://localhost:8080/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
 lecturerID: 36
-startdate: 2011-01-18 00:00:00.0
-enddate: 2011-02-18 00:00:00.0
 
-<> 2018-04-08T074153.200.json
+<> 2018-04-15T100655.200.json
 
 ###
 
 POST http://localhost:8080/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
 lecturerID: 36
-startdate: 2011-01-18 00:00:00.0
-enddate: 2011-02-18 00:00:00.0
-
-<> 2018-04-08T074113.200.json
 
 ###
 
 POST http://localhost:8080/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
 lecturerID: 36
-startdate: 2011-01-18 00:00:00.0
-enddate: 2011-02-18 00:00:00.0
 
-<> 2018-04-08T074007.200.json
+<> 2018-04-15T100500.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/getAppointments
+POST http://localhost:8080/AppointmentSystem/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
 lecturerID: 36
-startdate: 2011-01-18 00:00:00.0
-enddate: 2011-02-18 00:00:00.0
 
-<> 2018-04-08T073848.200.json
+<> 2018-04-15T100454.404.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/getAppointments
+POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
 lecturerID: 36
-startdate: 2011-01-18 00:00:00.0
-enddate: 2011-02-18 00:00:00.0
 
-<> 2018-04-08T054459.200.json
+<> 2018-04-15T100445.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/getAppointments
+POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
 lecturerID: 36
-startdate: 2011-01-18 00:00:00.0
-enddate: 2011-02-18 00:00:00.0
 
-<> 2018-04-08T054425.200.json
+<> 2018-04-15T100018.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
+lecturerID: 36
+
+<> 2018-04-15T095904.200.json
+
+###
+
+POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
+Accept: */*
+Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
+lecturerID: 36
+
+<> 2018-04-15T095854.200.json
+
+###
+
+POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/getAppointments
+Accept: */*
+Cache-Control: no-cache
+startdate: 2010-01-22 00:00:00
+enddate: 2012-01-22 00:00:00
+lecturerID: 36
+
+<> 2018-04-15T095605.200.json
+
+###
+
+POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/getAppointments
+Accept: */*
+Cache-Control: no-cache
 randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
-
-<> 2018-04-08T052606.200.json
-
-###
-
-POST http://localhost:8080/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
 randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+randevuTarihi: 2011-01-22 00:00:00
 
-<> 2018-04-08T052527.500.html
+<> 2018-04-15T095357.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/take
 Accept: */*
 Cache-Control: no-cache
+randevuAlanID: 35
 randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+randevuTarihi: 2011-01-22 00:00:00
 
-<> 2018-04-08T052433.500.html
+<> 2018-04-15T095245.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/take
 Accept: */*
 Cache-Control: no-cache
+randevuAlanID: 35
 randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+randevuTarihi: 2011-01-22 00:00:00	30
 
-<> 2018-04-08T052343.200.json
+<> 2018-04-15T095206.500.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/take
 Accept: */*
 Cache-Control: no-cache
+randevuAlanID: 35
 randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+randevuTarihi: 2011-01-22 00:00:00	30
 
-<> 2018-04-08T052257.200.json
-
-###
-
-POST http://localhost:8080/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
-
-<> 2018-04-08T052208.200.json
+<> 2018-04-15T095148.500.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://localhost:8080/rest/user/register
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user11
+password: pass
+email: erkankarabulut@hotmail.com.tr1
+usertype: 1
 
-<> 2018-04-08T052130.500.html
+<> 2018-04-15T094558.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://localhost:8080/rest/user/register
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
+email: erkankarabulut@hotmail.com.tr1
+usertype: 1
 
-<> 2018-04-08T052117.500.html
+<> 2018-04-15T094552.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://localhost:8080/rest/user/register
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
+email: erkankarabulut@hotmail.com.tr
+usertype: 1
 
-<> 2018-04-08T051931.200.json
+<> 2018-04-15T094546.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://localhost:8080/RESTfulExample/rest/user/register
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
+email: erkankarabulut@hotmail.com.tr
+usertype: 1
 
-<> 2018-04-08T051809.200.json
+<> 2018-04-15T094536.404.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/RESTfulExample/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
 
-<> 2018-04-08T051505.500.html
+<> 2018-04-15T094109.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/RESTfulExample
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
-
-<> 2018-04-08T051326.500.html
+username: user
+password: pass
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://localhost:8080/RESTfulExample/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
 
-<> 2018-04-08T051250.200.json
+<> 2018-04-15T024043.404.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/RESTfulExample/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
 
-<> 2018-04-08T050720.200.json
+<> 2018-04-15T023955.500.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/RESTfulExample/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
 
-<> 2018-04-08T050626.200.json
+<> 2018-04-15T023927.500.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
 
-<> 2018-04-08T050506.200.json
+<> 2018-04-15T023906.404.html
 
 ###
 
-POST http://localhost:8080/rest/appointment/take
+POST http://13.59.53.130:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
 
-<> 2018-04-08T050338.200.json
-
-###
-
-POST http://localhost:8080/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
-
-<> 2018-04-08T050302.500.html
-
-###
-
-POST http://localhost:8080/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
-
-<> 2018-04-08T050210.200.json
-
-###
-
-POST http://localhost:8080/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
-
-<> 2018-04-08T050204.200.json
+<> 2018-04-15T023857.404.html
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-randevuVerenID: 36
-randevuAlanID: 35
-randevuTarihi: 2011-01-18 00:00:00.0
+username: user
+password: pass
 
-<> 2018-04-08T050134.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T085203.200.json
+<> 2018-04-15T023145.200.json
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImF1ZCI6InBhc3N3b3JkIiwiZXhwIjoxNTIzNDM4MTc0fQ.rxc2RNx0n1SPf1rJ-FcEVxMy0vB58Ida00u3uNiluOsU9dOFK-nywJ4Cidb32NSrtIm7YocWxTsBdwASkadCfA
 
-<> 2018-04-06T085105.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T084919.200.json
+<> 2018-04-15T022859.500.html
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImF1ZCI6InBhc3N3b3JkIiwiZXhwIjoxNTIzNDM4MTc0fQ.rxc2RNx0n1SPf1rJ-FcEVxMy0vB58Ida00u3uNiluOsU9dOFK-nywJ4Cidb32NSrtIm7YocWxTsBdwASkadCfA
 
-<> 2018-04-06T084731.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T084600.200.json
+<> 2018-04-10T121646.200.json
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: user1
+password: password
+usertype: 1
+email: email@email.com
 
-<> 2018-04-06T084245.500.html
+<> 2018-04-10T121614.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register
+Accept: */*
+Cache-Control: no-cache
+username: user1
+password: password
+usertype: 1
+email: email@email.com
+
+<> 2018-04-10T121554.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register
+Accept: */*
+Cache-Control: no-cache
+username: user111
+password: password
+usertype: 1
+email: email@maill.com
+
+<> 2018-04-10T112235.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register
+Accept: */*
+Cache-Control: no-cache
+username: user111
+password: password
+usertype: 1
+email: email@mail.com
+
+<> 2018-04-10T112218.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register
+Accept: */*
+Cache-Control: no-cache
+username: user
+password: password
+usertype: 1
+email: email@mail.com
+
+<> 2018-04-10T112206.200.json
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: user
+password: password
+usertype: 1
+email: email@mail.com
 
-<> 2018-04-06T083846.500.html
+<> 2018-04-10T112153.200.json
+
+###
+
+POST http://localhost:8080/rest/user/register
+Accept: */*
+Cache-Control: no-cache
+username: user
+password: password
+usertype: 1
+email: email@mail.com
+
+<> 2018-04-10T112136.200.json
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: user
+password: password
+usertype: 1
+email: email@mail.com
 
-<> 2018-04-06T083724.500.html
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T083716.500.html
+<> 2018-04-10T112124.200.json
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
 
-<> 2018-04-06T083453.500.html
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T083434.500.html
+<> 2018-04-10T111717.200.json
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T082707.500.html
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
 
-<> 2018-04-06T082423.500.html
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T082139.500.html
+<> 2018-04-10T070904.200.json
 
 ###
 
 POST http://localhost:8080/rest/user/login
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
 
-<> 2018-04-06T081901.500.html
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: burak123
-password: erkan
-
-<> 2018-04-06T081537.500.html
+<> 2018-04-09T114240.200.json
 
 ###
 
-POST http://localhost:8080/rest/user/login
+POST http://localhost:8080/rest/user/login?username=12&password=123
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
 
-<> 2018-04-06T081309.500.html
+<> 2018-04-09T114227.200.json
 
 ###
 
-POST http://localhost:8080/rest/user/login
+POST http://localhost:8080/rest/user/login?username=12&password=123
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: 12
+password: 123
 
-<> 2018-04-06T081248.500.html
+<> 2018-04-09T114211.200.json
 
 ###
 
-POST http://localhost:8080/rest/user/login
+POST http://localhost:8080/rest/user/login?username=12&password=123
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImV4cCI6MTUyMzM5MjY2NX0.4aNxPVw-elJE9tdSIbqmVZ98nki3Ts1bCVXI4jwv7RogLrVGcTP5kXa2HGplpXYpTUO7SDnxOg4OTPsygRTAJA
 
-<> 2018-04-05T115605.500.html
+<> 2018-04-09T113831.200.json
 
 ###
 
-POST http://localhost:8080/rest/user/login
+POST http://localhost:8080/rest/user/login?username=12&password=123
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: 12
+password: 123
 
-<> 2018-04-05T115522.500.html
+<> 2018-04-09T113746.200.json
 
 ###
 
-POST http://localhost:8080/rest/user/login
+POST http://localhost:8080/rest/user/login?username=12&password=123
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: 12
+password: 123
 
-<> 2018-04-05T114621.500.html
+<> 2018-04-09T113602.200.json
 
 ###
 
-POST http://localhost:8080/rest/user/login
+POST http://localhost:8080/rest/user/login?username=12&password=123
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: 12
+password: 123
 
-<> 2018-04-05T114447.500.html
+<> 2018-04-09T113529.200.json
 
 ###
 
-POST http://localhost:8080/rest/user/login
+POST http://localhost:8080/rest/user/login?username=12&password=123
 Accept: */*
 Cache-Control: no-cache
-username: burak123
-password: erkan
+username: 12
+password: 123
 
-<> 2018-04-05T114231.500.html
+<> 2018-04-09T113503.200.json
+
+###
+
+POST http://localhost:8080/rest/user/login?username=12&password=123
+Accept: */*
+Cache-Control: no-cache
+username: 12
+username: 123
+
+<> 2018-04-09T113451.200.json
+
+###
+
+POST http://localhost:8080/rest/user/login?username=12&password=123
+Accept: */*
+Cache-Control: no-cache
+token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImV4cCI6MTUyMzM5MjI3OH0.OUOSQZHFUaUsmeCD9DclaxeKqyaM7PbvWOUhOT_8ZWXSG86XlWES6lwyJFxqCON7REHVOLNLOpi-_Bk_ayKImA
+
+<> 2018-04-09T113310.500.html
+
+###
+
+POST http://localhost:8080/rest/user/login?username=12&password=123
+Accept: */*
+Cache-Control: no-cache
+username: 12
+password: 123
+
+<> 2018-04-09T113119.200.json
+
+###
+
+POST http://localhost:8080/rest/user/login?username=12&password=123
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-04-09T113052.200.json
 
 ###
 

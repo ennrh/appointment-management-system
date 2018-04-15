@@ -1,0 +1,20 @@
+Bütün parametreler request header'a sağ taraftaki isimler ile gelmeli.
+Dönüşler JSON formatında.
+
+http://13.59.53.130:8080/AppointmentSystem/rest/user/login username, password
+Dönüş --> status, error (error varsa error mesajı döner, sadece status 202'mi bakmanızda yeterli)
+
+http://13.59.53.130:8080/AppointmentSystem/rest/user/register username, password, email, usertype,
+email, tel, gender
+Dönüş --> status,
+
+http://13.59.53.130:8080/AppointmentSystem/rest/appointment/take (Randevu Alma)
+randevuAlanID, randevuVerenID, randevuTarihi (Tarih her API için klasik DateTime formatında olmalı:
+Örnek: 2011-01-22 00:00:00)
+Dönüş --> status
+
+http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments (Bir randevu veren
+için girilen tarih aralığındaki randevuları çekme.)
+startdate, endate, lecturerID
+Dönüş --> dates(ArrayList), lenghts(ArrayList), appointmentStatus(ArrayList) (Aynı gözdeki elemanlar aynı randevuya ait bilgiler demek)
+

@@ -5,6 +5,7 @@ import provider.UserInformationProvider;
 import provider.UserRegitrationProvider;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -32,4 +33,6 @@ public class UserStuffController {
 
         return Response.ok().entity(data.toString()).build();
     }
+
+
 }

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head><title>HTTP Status 500 – Internal Server Error</title>
+    <style type="text/css">h1 {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+        font-size: 22px;
+    }
+
+    h2 {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+        font-size: 16px;
+    }
+
+    h3 {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+        font-size: 14px;
+    }
+
+    body {
+        font-family: Tahoma, Arial, sans-serif;
+        color: black;
+        background-color: white;
+    }
+
+    b {
+        font-family: Tahoma, Arial, sans-serif;
+        color: white;
+        background-color: #525D76;
+    }
+
+    p {
+        font-family: Tahoma, Arial, sans-serif;
+        background: white;
+        color: black;
+        font-size: 12px;
+    }
+
+    a {
+        color: black;
+    }
+
+    a.name {
+        color: black;
+    }
+
+    .line {
+        height: 1px;
+        background-color: #525D76;
+        border: none;
+    }</style>
+</head>
+<body><h1>HTTP Status 500 – Internal Server Error</h1>
+<hr class="line"/>
+<p><b>Type</b> Exception Report</p>
+<p><b>Message</b> Servlet.init() for servlet [jersey-serlvet] threw exception</p>
+<p><b>Description</b> The server encountered an unexpected condition that prevented it from fulfilling the request.</p>
+<p><b>Exception</b></p>
+<pre>javax.servlet.ServletException: Servlet.init() for servlet [jersey-serlvet] threw exception
+	org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre>
+<p><b>Root Cause</b></p>
+<pre>java.lang.UnsupportedClassVersionError: controller&#47;UserStuffController : Unsupported major.minor version 52.0 (unable to load class [controller.UserStuffController])
+	org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2289)
+	org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1260)
+	org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	java.lang.Class.forName0(Native Method)
+	java.lang.Class.forName(Class.java:278)
+	com.sun.jersey.core.reflection.ReflectionHelper$3.run(ReflectionHelper.java:284)
+	com.sun.jersey.core.reflection.ReflectionHelper$3.run(ReflectionHelper.java:279)
+	java.security.AccessController.doPrivileged(Native Method)
+	com.sun.jersey.spi.scanning.AnnotationScannerListener$AnnotatedClassVisitor.getClassForName(AnnotationScannerListener.java:228)
+	com.sun.jersey.spi.scanning.AnnotationScannerListener$AnnotatedClassVisitor.visitEnd(AnnotationScannerListener.java:192)
+	jersey.repackaged.org.objectweb.asm.ClassReader.accept(ClassReader.java:697)
+	jersey.repackaged.org.objectweb.asm.ClassReader.accept(ClassReader.java:506)
+	com.sun.jersey.spi.scanning.AnnotationScannerListener.onProcess(AnnotationScannerListener.java:138)
+	com.sun.jersey.core.spi.scanning.uri.FileSchemeScanner$1.f(FileSchemeScanner.java:86)
+	com.sun.jersey.core.util.Closing.f(Closing.java:71)
+	com.sun.jersey.core.spi.scanning.uri.FileSchemeScanner.scanDirectory(FileSchemeScanner.java:83)
+	com.sun.jersey.core.spi.scanning.uri.FileSchemeScanner.scan(FileSchemeScanner.java:71)
+	com.sun.jersey.core.spi.scanning.PackageNamesScanner.scan(PackageNamesScanner.java:226)
+	com.sun.jersey.core.spi.scanning.PackageNamesScanner.scan(PackageNamesScanner.java:142)
+	com.sun.jersey.api.core.ScanningResourceConfig.init(ScanningResourceConfig.java:80)
+	com.sun.jersey.api.core.PackagesResourceConfig.init(PackagesResourceConfig.java:104)
+	com.sun.jersey.api.core.PackagesResourceConfig.&lt;init&gt;(PackagesResourceConfig.java:78)
+	com.sun.jersey.api.core.PackagesResourceConfig.&lt;init&gt;(PackagesResourceConfig.java:89)
+	com.sun.jersey.spi.container.servlet.WebComponent.createResourceConfig(WebComponent.java:696)
+	com.sun.jersey.spi.container.servlet.WebComponent.createResourceConfig(WebComponent.java:674)
+	com.sun.jersey.spi.container.servlet.WebComponent.init(WebComponent.java:205)
+	com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:394)
+	com.sun.jersey.spi.container.servlet.ServletContainer.init(ServletContainer.java:577)
+	javax.servlet.GenericServlet.init(GenericServlet.java:158)
+	org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1152)
+	java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:622)
+	org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	java.lang.Thread.run(Thread.java:748)
+</pre>
+<p><b>Note</b> The full stack trace of the root cause is available in the server logs.</p>
+<hr class="line"/>
+<h3>Apache Tomcat/8.5.29</h3></body>
+</html>

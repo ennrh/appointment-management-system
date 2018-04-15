@@ -25,12 +25,16 @@ public class UserInformationProvider {
         JSONObject result = new JSONObject();
         UserInfoRepository userInfoRepository = new UserInfoRepository();
 
-        String key = userInfoRepository.getKey();
+        String key = "f8eb31a4-8736-41b2-8194-0e8c6785cb54";
         String token = request.getHeader("token");
 
         if(token != null){
-            Date date = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody().getExpiration();
-            if (date.compareTo(new Date()) > 0){
+            Claims claim = Jwts.parser().setSigningKey(key).parseClaimsJws(token).getBody();
+            Date date = claim.getExpiration();
+            String username = claim.getSubject();
+            String password = claim.getAudience();
+
+            if (date.compareTo(new Date()) > 0 && userInfoRepository.checkUser(username, password)){
                 result.put("status", 200);
                 return result;
             }
@@ -38,6 +42,7 @@ public class UserInformationProvider {
 
         String username = request.getHeader("username");
         String password = request.getHeader("password");
+        System.out.print(username + " " + password);
 
         try {
             if (username == null || password == null) {
@@ -49,11 +54,12 @@ public class UserInformationProvider {
                     result.put("status", 200);
 
                     Calendar c = Calendar.getInstance();
-                    c.setTime(new Date()); // Now use today date.
-                    c.add(Calendar.HOUR, 24); // Adds 15 days
+                    c.setTime(new Date());
+                    c.add(Calendar.HOUR, 24);
 
                     String newToken = Jwts.builder()
                             .setSubject(username)
+                            .setAudience(password)
                             .setExpiration(c.getTime())
                             .signWith(SignatureAlgorithm.HS512, key)
                             .compact();

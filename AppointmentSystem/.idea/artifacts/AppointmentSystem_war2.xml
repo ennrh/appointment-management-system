@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="AppointmentSystem:war2">
+    <output-path>$PROJECT_DIR$/classes/artifacts/AppointmentSystem_war2</output-path>
+    <root id="archive" name="AppointmentSystem_war.war">
+      <element id="artifact" artifact-name="AppointmentSystem:war exploded" />
+    </root>
+  </artifact>
+</component>

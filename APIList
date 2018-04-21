@@ -1,15 +1,16 @@
 Bütün parametreler request header'a sağ taraftaki isimler ile gelmeli.
 Dönüşler JSON formatında.
 
-http://13.59.53.130:8080/AppointmentSystem/rest/user/login username, password
-Dönüş --> status, error (error varsa error mesajı döner, sadece status 202'mi bakmanızda yeterli)
+http://13.59.53.130:8080/AppointmentSystem/rest/user/login username, password yada yalnızca token
+Dönüş --> status, token, error (error varsa error mesajı döner, sadece status 202'mi bakmanızda yeterli, 
+Eğer token ile giriş yapılmış ise yalnızca status döner.)
 
 http://13.59.53.130:8080/AppointmentSystem/rest/user/register username, password, email, usertype,
 email, tel, gender
 Dönüş --> status,
 
 http://13.59.53.130:8080/AppointmentSystem/rest/appointment/take (Randevu Alma)
-randevuAlanID, randevuVerenID, randevuTarihi (Tarih her API için klasik DateTime formatında olmalı:
+randevuAlanID, randevuVerenID, randevuTarihi(Başlangıç) (Tarih her API için klasik DateTime formatında olmalı:
 Örnek: 2011-01-22 00:00:00)
 Dönüş --> status
 

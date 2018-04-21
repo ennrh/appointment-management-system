@@ -22,7 +22,11 @@ public class UserStuffController {
     public Response loginUser(@Context HttpServletRequest request) throws Exception {
         JSONObject data = UserInformationProvider.getUserInformation(request);
 
-        return Response.ok().entity(data.toString()).build();
+        return Response.ok().entity(data.toString()).header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Allow-Headers",
+                        "origin, content-type, accept, authorization, auth-user")
+                .header("Access-Control-Allow-Credentials", "true").build();
     }
 
     @POST
@@ -31,7 +35,11 @@ public class UserStuffController {
     public Response registerUSer(@Context HttpServletRequest request) throws Exception {
         JSONObject data = UserRegitrationProvider.registerUser(request);
 
-        return Response.ok().entity(data.toString()).build();
+        return Response.ok().entity(data.toString()).header("Access-Control-Allow-Origin", "*")
+                .header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS, HEAD")
+                .header("Access-Control-Allow-Headers",
+                        "origin, content-type, accept, authorization, auth-user")
+                .header("Access-Control-Allow-Credentials", "true").build();
     }
 
 

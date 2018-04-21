@@ -32,6 +32,23 @@ public class UserInfoRepository extends BaseRepository{
         return false;
     }
 
+    public String getUserID(String username){
+        String id = "";
+        try {
+            this.connect();
+            this.createStatement();
 
+            resultSet = statement.executeQuery("select UserID as id from Users" +
+                    " where Username = '" + username +"'");
+            resultSet.next();
+            id = resultSet.getString("id");
+
+            this.closeConnection();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+        return id;
+    }
 
 }

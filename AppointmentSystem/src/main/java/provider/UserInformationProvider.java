@@ -33,9 +33,11 @@ public class UserInformationProvider {
             Date date = claim.getExpiration();
             String username = claim.getSubject();
             String password = claim.getAudience();
+            String id = userInfoRepository.getUserID(username);
 
             if (date.compareTo(new Date()) > 0 && userInfoRepository.checkUser(username, password)){
                 result.put("status", 200);
+                result.put("id", id);
                 return result;
             }
         }
@@ -52,6 +54,9 @@ public class UserInformationProvider {
                 Boolean bool = userInfoRepository.checkUser(username, password);
                 if (bool) {
                     result.put("status", 200);
+
+                    String id = userInfoRepository.getUserID(username);
+                    result.put("userid", id);
 
                     Calendar c = Calendar.getInstance();
                     c.setTime(new Date());
@@ -77,4 +82,5 @@ public class UserInformationProvider {
         System.out.println(result.toString());
         return result;
     }
+
 }

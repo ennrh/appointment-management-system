@@ -1,520 +1,683 @@
+POST http://localhost:8080/rest/user/login
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+username: user
+password: password
+
+<> 2018-04-20T112647.200.json
+
+###
+
+POST http://localhost:8080/AppointmentSystem/rest/user/login
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+username: user
+password: password
+
+<> 2018-04-20T112637.404.html
+
+###
+
+POST http://13.59.53.130:8080/AppointmentSystem/rest/user/login
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+username: user
+password: password
+
+<> 2018-04-20T112429.200.json
+
+###
+
+POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T112400.200.json
+
+###
+
+POST http://13.59.53.130:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T112349.404.html
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T112016.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T112011.200.json
+
+###
+
+POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T101553.200.json
+
+###
+
+POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T101547.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T101307.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T101305.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T101303.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T101041.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+
+<> 2018-04-20T101037.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T100014.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T095751.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T095729.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T095613.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T095512.500.html
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T095141.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T095133.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T095003.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094915.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-30 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 5
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094647.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-02-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 3
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094610.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-02-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094531.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-02-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094516.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094458.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094454.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094053.500.html
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094035.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094020.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T094017.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T093826.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T093824.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T093808.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T093309.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T093227.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T093102.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: [{"day":"1"},{"day":"2"}]
+
+<> 2018-04-20T092907.200.json
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: {"days":[{"day":"1"},{"day":"2"}]}
+
+<> 2018-04-20T092836.500.html
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: {"days":[{"day":"1"},{"day":"2"}]}
+
+<> 2018-04-20T092831.500.html
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+days: {"days":[{"day":"1"},{"day":"2"}]}
+
+<> 2018-04-20T092813.500.html
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 2
+
+<> 2018-04-20T092525.500.html
+
+###
+
+POST http://localhost:8080/rest/appointment/openAppointment
+Accept: */*
+Cache-Control: no-cache
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+id: 12333
+length: 60
+parameter: 1
+
+<> 2018-04-20T092502.200.json
+
+###
+
 POST http://localhost:8080/rest/appointment/getAppointments
 Accept: */*
 Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
+startDate: 2011-01-22 00:00:00
+endDate: 2012-02-25 00:00:00
+lecturerID: 12333
 
-<> 2018-04-15T100655.200.json
-
-###
-
-POST http://localhost:8080/rest/appointment/getAppointments
-Accept: */*
-Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
+<> 2018-04-20T091603.200.json
 
 ###
 
-POST http://localhost:8080/rest/appointment/getAppointments
+POST http://localhost:8080/rest/appointment/openAppointment
 Accept: */*
 Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
+startDate: 2011-01-22 00:00:00
+length: 123
+endDate: 2012-02-25 00:00:00
+lecturerID: 12333
+parameter: 4
 
-<> 2018-04-15T100500.200.json
+<> 2018-04-20T121523.200.json
 
 ###
 
-POST http://localhost:8080/AppointmentSystem/rest/appointment/getAppointments
+POST http://localhost:8080/rest/appointment/openAppointment
 Accept: */*
 Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
+startDate: 2011-01-22 00:00:00
+length: 123
+endDate: 2012-02-25 00:00:00
+lecturerID: 12333
+parameter: 4
 
-<> 2018-04-15T100454.404.html
+<> 2018-04-20T121422.200.json
 
 ###
 
-POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
+POST http://localhost:8080/rest/appointment/openAppointment
 Accept: */*
 Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
+startDate: 2011-01-22 00:00:00
+length: 123
+endDate: 2012-02-25 00:00:00
+lecturerID: 12333
+parameter: 4
 
-<> 2018-04-15T100445.200.json
+<> 2018-04-20T121305.500.html
 
 ###
 
-POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
+POST http://localhost:8080/rest/appointment/openAppointment
 Accept: */*
 Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
-
-<> 2018-04-15T100018.200.json
-
-###
-
-POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
-Accept: */*
-Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
-
-<> 2018-04-15T095904.200.json
-
-###
-
-POST http://13.59.53.130:8080/AppointmentSystem/rest/appointment/getAppointments
-Accept: */*
-Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
-
-<> 2018-04-15T095854.200.json
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/getAppointments
-Accept: */*
-Cache-Control: no-cache
-startdate: 2010-01-22 00:00:00
-enddate: 2012-01-22 00:00:00
-lecturerID: 36
-
-<> 2018-04-15T095605.200.json
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/getAppointments
-Accept: */*
-Cache-Control: no-cache
-randevuAlanID: 35
-randevuVerenID: 36
-randevuTarihi: 2011-01-22 00:00:00
-
-<> 2018-04-15T095357.200.json
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
-randevuAlanID: 35
-randevuVerenID: 36
-randevuTarihi: 2011-01-22 00:00:00
-
-<> 2018-04-15T095245.200.json
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
-randevuAlanID: 35
-randevuVerenID: 36
-randevuTarihi: 2011-01-22 00:00:00	30
-
-<> 2018-04-15T095206.500.html
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/appointment/take
-Accept: */*
-Cache-Control: no-cache
-randevuAlanID: 35
-randevuVerenID: 36
-randevuTarihi: 2011-01-22 00:00:00	30
-
-<> 2018-04-15T095148.500.html
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user11
-password: pass
-email: erkankarabulut@hotmail.com.tr1
-usertype: 1
-
-<> 2018-04-15T094558.200.json
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-email: erkankarabulut@hotmail.com.tr1
-usertype: 1
-
-<> 2018-04-15T094552.200.json
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-email: erkankarabulut@hotmail.com.tr
-usertype: 1
-
-<> 2018-04-15T094546.200.json
-
-###
-
-POST http://localhost:8080/RESTfulExample/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-email: erkankarabulut@hotmail.com.tr
-usertype: 1
-
-<> 2018-04-15T094536.404.html
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-<> 2018-04-15T094109.200.json
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-###
-
-POST http://localhost:8080/RESTfulExample/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-<> 2018-04-15T024043.404.html
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-<> 2018-04-15T023955.500.html
-
-###
-
-POST http://13.59.53.130:8080/RESTfulExample/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-<> 2018-04-15T023927.500.html
-
-###
-
-POST http://13.59.53.130:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-<> 2018-04-15T023906.404.html
-
-###
-
-POST http://13.59.53.130:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-<> 2018-04-15T023857.404.html
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: pass
-
-<> 2018-04-15T023145.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImF1ZCI6InBhc3N3b3JkIiwiZXhwIjoxNTIzNDM4MTc0fQ.rxc2RNx0n1SPf1rJ-FcEVxMy0vB58Ida00u3uNiluOsU9dOFK-nywJ4Cidb32NSrtIm7YocWxTsBdwASkadCfA
-
-<> 2018-04-15T022859.500.html
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMSIsImF1ZCI6InBhc3N3b3JkIiwiZXhwIjoxNTIzNDM4MTc0fQ.rxc2RNx0n1SPf1rJ-FcEVxMy0vB58Ida00u3uNiluOsU9dOFK-nywJ4Cidb32NSrtIm7YocWxTsBdwASkadCfA
-
-<> 2018-04-10T121646.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user1
-password: password
-usertype: 1
-email: email@email.com
-
-<> 2018-04-10T121614.200.json
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user1
-password: password
-usertype: 1
-email: email@email.com
-
-<> 2018-04-10T121554.200.json
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user111
-password: password
-usertype: 1
-email: email@maill.com
-
-<> 2018-04-10T112235.200.json
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user111
-password: password
-usertype: 1
-email: email@mail.com
-
-<> 2018-04-10T112218.200.json
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: password
-usertype: 1
-email: email@mail.com
-
-<> 2018-04-10T112206.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: password
-usertype: 1
-email: email@mail.com
-
-<> 2018-04-10T112153.200.json
-
-###
-
-POST http://localhost:8080/rest/user/register
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: password
-usertype: 1
-email: email@mail.com
-
-<> 2018-04-10T112136.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-username: user
-password: password
-usertype: 1
-email: email@mail.com
-
-<> 2018-04-10T112124.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
-
-<> 2018-04-10T111717.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
-
-<> 2018-04-10T070904.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
-
-<> 2018-04-09T114240.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImF1ZCI6IjEyMyIsImV4cCI6MTUyMzM5MjkzMH0.q6uJjjJWgDf9hKhJKkDSw--pZ-KXMM78dZnS2y0e8pbnyEMFX49YgSBKdvbEc-GysLLSlBjrCSaH4NTevzZEJg
-
-<> 2018-04-09T114227.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-username: 12
-password: 123
-
-<> 2018-04-09T114211.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImV4cCI6MTUyMzM5MjY2NX0.4aNxPVw-elJE9tdSIbqmVZ98nki3Ts1bCVXI4jwv7RogLrVGcTP5kXa2HGplpXYpTUO7SDnxOg4OTPsygRTAJA
-
-<> 2018-04-09T113831.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-username: 12
-password: 123
-
-<> 2018-04-09T113746.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-username: 12
-password: 123
-
-<> 2018-04-09T113602.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-username: 12
-password: 123
-
-<> 2018-04-09T113529.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-username: 12
-password: 123
-
-<> 2018-04-09T113503.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-username: 12
-username: 123
-
-<> 2018-04-09T113451.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-token: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMiIsImV4cCI6MTUyMzM5MjI3OH0.OUOSQZHFUaUsmeCD9DclaxeKqyaM7PbvWOUhOT_8ZWXSG86XlWES6lwyJFxqCON7REHVOLNLOpi-_Bk_ayKImA
-
-<> 2018-04-09T113310.500.html
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-username: 12
-password: 123
-
-<> 2018-04-09T113119.200.json
-
-###
-
-POST http://localhost:8080/rest/user/login?username=12&password=123
-Accept: */*
-Cache-Control: no-cache
-
-<> 2018-04-09T113052.200.json
+startDate: 2011-01-22 00:00:00
+length: 123
+endDate: 2012-02-25 00:00:00
+lecturerID: 12333
+parameter: 4
+
+<> 2018-04-20T121028.500.html
 
 ###
 
